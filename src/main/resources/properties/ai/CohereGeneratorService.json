@@ -1,0 +1,43 @@
+[
+    {
+        "title" : "@@CohereGeneratorService.config@@",
+        "properties" : [
+            {
+                "name" : "model",
+                "label" : "@@CohereGeneratorService.model@@",
+                "type" : "textfield",
+                "value" : "command",
+                "required" : "True"
+            },
+            {
+                "name" : "apiKey",
+                "label" : "@@CohereGeneratorService.apiKey@@",
+                "type" : "password",
+                "required" : "True"
+            },
+            {
+                "name" : "debug",
+                "label" : "@@CohereGeneratorService.debug@@",
+                "type" : "checkbox",
+                "options" : [{"value" : "true", "label" : ""}]
+            },
+            {
+                "name" : "proxyDomain",
+                "label" : "@@CohereGeneratorService.proxyDomain@@",
+                "type" : "textfield"
+            },
+            {
+                "name" : "webSearch",
+                "label" : "@@CohereGeneratorService.webSearch@@",
+                "type" : "checkbox",
+                "options" : [{"value" : "true", "label" : ""}]
+            }
+        ]
+    }
+]
+
+
+
+
+
+
